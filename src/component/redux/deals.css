@@ -1,0 +1,145 @@
+
+.pic1{
+   background-image: url("C:\Users\admin\react-newone\src\component\New folder\u1.webp");
+   height:250px;
+   width: 250px;
+   background-size: cover;  
+} 
+.pic2{
+    background-image: url("C:\Users\admin\react-newone\src\component\New folder\u2.jpg");
+    background-size: cover;
+    height:250px;
+    width: 250px;
+}
+.pic3{
+    background-image: url
+    ("C:\Users\admin\react-newone\src\component\New folder\u3.jpg");
+    height:250px;
+    width: 250px;
+    background-size: cover;  
+ } 
+ .pic4{
+    background-image: url("C:\Users\admin\react-newone\src\component\New folder\u4.jpg");
+    height:250px;
+    width: 250px;
+    background-size: cover;  
+ }
+ .pic5{
+    background-image: url("C:\Users\admin\react-newone\src\component\New folder\u5.jpg");
+    height:250px;
+    width: 250px;
+    background-size: cover;  
+ }
+ .pic6{
+    background-image: url("C:\Users\admin\react-newone\src\component\New folder\u6.jpg");
+    height:250px;
+    width: 250px;
+    background-size: cover;  
+ }
+ .pic7{
+    background-image: url("C:\Users\admin\react-newone\src\component\New folder\u7.jpg");
+    height:250px;
+    width: 250px;
+    background-size: cover;  
+ }
+ .pic8{
+    background-image: url("C:\Users\admin\react-newone\src\component\New folder\u8.jpg");
+    height:250px;
+    width: 250px;
+    background-size: cover;  
+ }
+ 
+ .imgscroll{
+    position: static;
+    left: 0;
+    padding: 60px 0;
+    width: 100%;
+    display: flex;
+    overflow-x:hidden ;
+    position: relative;
+ }
+  .imgscroll div em {
+    margin: 0 25px;
+    max-width: 300px;
+    border: 10px solid transparent;
+    transition: 0.25s;
+ }
+ .imgscroll div {
+   display: flex;
+   animation: animate 40s linear infinite;
+   animation-delay: -40px;
+ }
+ @keyframes animate{
+   0%{
+       transform: translateX(100%);
+   
+   }
+   100%{
+       transform: translateX(-100%);
+   }
+    }
+ .imgscroll div em:hover{
+   border: 10px solid #fff;
+   box-shadow: 0 20px 40px rgba(0,0,0,0.1,); 
+ }
+ .imgscroll:hover div em{
+   opacity: 0.05;
+   filter: blur(5px);
+ }
+ .imgscroll div em:hover{
+   opacity: 1;
+   filter: blur(0px);
+ }
+.imgscroll{
+   background-color: rgb(67, 68, 68);
+}
+.imgscroll div:nth-child(2){
+   animation: animate2 40s linear infinite;
+   animation-delay: -20s;
+}
+@keyframes animate2{
+   0%{
+       transform: translateX(0%);
+   
+   }
+   100%{
+       transform: translateX(-200%);
+   }
+    }
+.imgscroll:hover div,
+.imgscroll:hover div:nth-child(2)
+{
+   animation-play-state: paused;
+}
+
+span{
+   color: white;
+   position: absolute;
+   margin-top: 202px;
+   border: 1px solid thistle ;
+   border-radius: 5%;
+   background: rgb(58, 60, 65);
+   background-size: cover;
+   font-size: 14px;
+}
+.imgscroll div em{
+   background-size: cover;
+}
+#off{
+   color: white;
+   position: absolute;
+   margin-top: 180px;
+   border: 1px solid thistle ;
+   border-radius: 5%;
+   background: rgb(240, 62, 216);
+   background-size: cover;
+   font-size: 13px;
+}
+.deals{
+   color: #fac031;
+   
+   font-family: 'Pacifico', cursive;
+margin-left: 460px;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Pacifico', cursive;
+}

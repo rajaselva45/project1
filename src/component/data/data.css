@@ -1,0 +1,238 @@
+
+ /* #images{
+     transform: scale(1.2);
+    transition: 1.3s; 
+    width: 230px;
+    height: 290px;
+    border: 2px solid black;
+    background: #e5e5e5;
+    border: none !important;
+    gap: 40px;
+    border-radius: 5px !important;
+    overflow: hidden;
+    align-items: center; 
+    padding: 20px;
+     
+    
+
+
+    
+}
+#images img{
+    width: 250px;
+    height: 250px;
+    
+}
+ #dises {
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row;
+    flex-wrap: wrap;  
+    padding: 15px 20px 20px;
+
+}
+#images p{
+    color: black;
+    text-align: center;
+    
+}
+#images h5{
+    padding-right: 20px;
+    text-align: center;
+    color: black;
+}
+#images #back{
+    width: 100px;
+    background: #203bb3fb !important;
+    border: none !important;
+    color:white;   
+}
+#addtocart{
+    text-align: center;
+} */
+
+
+
+
+.selva{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+
+.vss{
+     width: 70%;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;  
+    max-width: 100%;
+     backface-visibility: hidden; 
+
+}
+    
+ /* .back{
+    
+    background-color: #c71212; 
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  */
+
+
+
+
+#stro{
+    backface-visibility: hidden;
+    margin-left: 116px;
+    margin-top: 8px;
+    
+
+}
+#stro1{
+    backface-visibility:hidden;
+    margin-left: 122px;
+    margin-top: 5px;
+}
+
+
+.vss:hover{
+    transform: scale(1.04);
+
+
+}
+.container:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg) ;
+}
+.card{
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    position: relative;
+    border: none;
+    
+}
+#buttonss{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#buttonss button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #27ae60;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.card:hover{
+    border: 1px solid rgb(78, 76, 76);
+    border-radius: 5px;
+}
+
+.vss{
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.names{
+    padding: 5px;
+    align-items: center;
+}
+.front,.back{
+     backface-visibility: hidden; 
+
+}
+.back{
+    
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 227px;
+    top: 34px;
+    margin-left: 60px;
+    font-size: large;
+    font-weight: bolder;
+}  
+#lion{
+  
+    font-size: 29px;
+    color: crimson;
+}                           
+
+
+#star{
+    color: white;
+    background-color: rgb(252, 76, 76);
+    font-size: 16px;
+    
+    width: 60px;
+    padding-left: 8px;
+    padding-right: 9px;
+    padding-bottom: 2px;
+    padding-bottom: 2px;
+    
+    
+}
+.btn{
+    margin-left: 102px;
+    font-size: 13px;
+    
+}
+#btn{
+    padding: 5px 30px;
+    text-transform: uppercase;
+    background: #27ae60;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 90px;
+    backface-visibility: hidden;
+    margin-top: 16px;
+    
+
+}
+#btn1{
+    background-color: rgb(255, 68, 68);
+    width: 120px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+}
+#btn{
+    padding: 6px;
+    width: 146px;
+    font-size: 14px;
+}
+
+#btn:hover{
+    
+  color: #fff;
+  background:rgb(236, 43, 124) ;
+} 
+@media screen and (max-width: 1000px){
+    .vss{
+        grid-template-columns: repeat(2 1fr);
+    }
+}
+    
+@media screen and (max-width: 768px){
+    .vss{
+        grid-template-columns: repeat(1 1fr);
+    }
+}
+  

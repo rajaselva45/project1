@@ -1,0 +1,128 @@
+/* .logoo{
+    background-image: url("C:\Users\ELCOT\react-sep-project\src\ownprograme\picvideos\logo.png");
+   height:80px;
+   background-size: cover;
+   width: 118px;
+   margin-left: -96px;  
+}  */
+.app{
+    margin-left: -250px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+em{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+}
+/* .register{
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+    margin-left: -1000px;
+} */
+.nav{
+    display: flex;
+    margin: 1vh 10vw;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size:1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-bar{
+    display: flex;
+
+}
+.nav-bar li{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 30px;
+    list-style: none;
+}
+.head{
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.head h2{
+    font-size: 2.1em;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.search{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px  0;
+    margin-top: 20px;
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left:10px ;
+    font-size: 15px;
+}
+.search p{
+    color: grey;
+    border-right:1px solid grey ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 15px;
+    margin-top: 13px;
+}
+.search i:first-child{
+    font-size: 20px;
+    color: rgb(252,119,119);
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.search i{
+    color: grey;
+    padding-left: 10px;
+}
+#store{
+    color: azure;
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width:1400px;
+}
+
+.pt-3{
+    height: 150px;
+    width: 1351px;
+    margin-top: -14px;
+}
+.w-100 {
+    width: 100%!important;
+    height: 480px;
+}
+#slide{
+    height: 350px;
+}
+#lo{
+    margin-left: 54px;
+    font-size: 27px;
+}

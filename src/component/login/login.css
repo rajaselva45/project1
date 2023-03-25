@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding: 0;
+ }
+ .container12{
+        
+    bottom: 170px;
+  margin-left: 216px;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%,-50%);
+     width: 382px;
+     
+ }
+ .card12{
+     padding: 60px 40px 50px 40px;
+     background:rgba(6, 214, 41, 0);
+     border: none;
+ 
+ }
+ #name12{
+     border: none;
+     background: transparent;
+     border-bottom: 2px solid rgb(247, 247, 247);
+     padding: 10px;
+     margin-bottom: 15px;
+     width: 300px;
+     color: rgb(255, 248, 252);
+     text-decoration: none;
+ }
+ #btn12{
+     border: 20px;
+     padding: 10px 20px;
+     background:rgb(247, 150, 23);
+     color: rgb(252, 247, 247);
+     margin-top: 10px;
+     border: none;
+     outline: none;
+     width: 300px;
+     cursor: pointer;
+ }
+ a{
+     font-size: 20px;
+ 
+ }
+ #imag12{
+     width: 1349px;
+     height:659px;
+ }
+ #terms{
+     font-size: 20px;
+ }
+ .tttt{
+     color: rgb(4, 80, 20);
+ }
